@@ -98,3 +98,21 @@ console.log(wife, husband, last); // console: Mia Marsellus Wallace
 
 
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+## Links
+
+(Hello, ES6)[http://yoshiko-pg.github.io/slides/20150425-jsfes/]
