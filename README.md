@@ -120,3 +120,6 @@ console.log(wife, husband, last); // console: Mia Marsellus Wallace
 [Mozilla](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
 
 [es6-features](http://es6-features.org/#Constants)
+
+[ECMAScript 2015 特集](https://html5experts.jp/series/ecma2015/)[1000ch](https://html5experts.jp/1000ch/16984/)
+[1000ch](https://html5experts.jp/1000ch/16995/)
