@@ -115,6 +115,6 @@ console.log(wife, husband, last); // console: Mia Marsellus Wallace
 
 ## Links
 
-[Learn ES6](]http://learnharmony.org/#lessons/)
+[Learn ES6](http://learnharmony.org/#lessons/)
 [Hello, ES6](http://yoshiko-pg.github.io/slides/20150425-jsfes/)
 [Mozilla](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
