@@ -117,10 +117,20 @@ console.log(makeParent('Darth', 'Vader'));
 
 object sohrt hand makes me confused, {first, last, isParent: true} just means {first: first, last, last, isParent: true}
 
+## http://learnharmony.org/#lessons/method-shorthand
 
+```js
+var chopper = {
+    owner: 'Zed',
+  getOwner() { return this.owner; }
+};
 
+console.log("Who's chopper is this?");
+console.log("It's " + chopper.getOwner() + "'s" );
+```
 
-
+you can use shorthand like this,
+getOwner: function() { return this.owner; } → getOwner() { return this.owner; }
 
 
 
