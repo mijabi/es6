@@ -16,10 +16,11 @@ var even = values.filter(x => x % 2 === 0);
 var evenSquares = even.map(x => x * x);
 
 console.log(even, evenSquares);
+```
 
+write without ES6
 
-// write without ES6
-
+```js
 var even2 = (function(){
   var hoge = values, fuga= [];
   for(var i in hoge) {
