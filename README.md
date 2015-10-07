@@ -95,13 +95,19 @@ let person = {
 };
 let {first: husband, last, spouse: { first: wife } } = person;
 console.log(wife, husband, last); // console: Mia Marsellus Wallace
-
-
 ```
 
+## http://learnharmony.org/#lessons/property-shorthand
 
+```js
+function makeParent(first, last) {
+    return {first, last, isParent: true};
+}
 
+console.log(makeParent('Darth', 'Vader'));
+```
 
+object sohrt hand makes me confused, {first, last, isParent: true} just means {first: first, last, last, isParent: true}
 
 
 
