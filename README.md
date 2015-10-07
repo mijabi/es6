@@ -53,14 +53,19 @@ var person = {
 
 let {first, last} = person;
 console.log(first, last); // console: Marsellus wallace
+```
 
-// same as below
+upon code is same as below
+
+```js
 var first = person.first;
 var last = person.last;
 console.log(first, last); // console: Marsellus wallece
+```
 
+you can use different names
 
-// you can use different names
+```
 let {first: fn, last: ln} = person;
 console.log(fn, ln); // console: Marsellus wallece
 
@@ -73,9 +78,11 @@ function getResult() {
 }
 let {result, error} = getResult();
 console.log(result, error); // 1234 null
+```
 
+it looks strange, but run
 
-// it look like strange, but run
+```js
 function doHTTP({host, port, path}) {
     console.log(host, port, path);
 }
